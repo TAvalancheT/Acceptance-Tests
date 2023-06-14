@@ -1,6 +1,5 @@
-/********************************************************************************************************/
-//HU15
-// Scenario: Mostrar grafico de progreso
+const { Given, And, When, Then } = require('cucumber');
+
 Scenario('Mostrar grafico de progreso', function () {
     Given('un apoderado desea tener una gráfica que muestre el progreso de su menor hijo(a)', function () { });
     When('el apoderado selecciona el apartado de progreso "Progreso".', function () { });

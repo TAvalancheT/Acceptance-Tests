@@ -6,9 +6,16 @@ Scenario('Capacidad de realizar un seguimiento individual', function () {
     Then('el maestro podra ver estadisticas y rendimiento de cada alumno', function () { });
     And('el maestro podra identificar las areas en los que los alumnos necesitan mejorar', function () { });
 });
+
+Escenario: Capacidad de realizar un seguimiento individual
+    Dado un maestro de escuela utiliza la app de comprension lectora
+    Cuando el maestro haga [clic el panel de control]
+    Entonces el maestro podra ver [estadisticas y rendimiento] de cada alumno
+    Y el maestro podra identificar las areas en los que los alumnos necesitan mejorar
+
 /*
 Input:
 - Clic en panel de control
 Output:
-- Estadisticas y rendimiento de cada alumno
+- Estadisticas y rendimiento 
 */

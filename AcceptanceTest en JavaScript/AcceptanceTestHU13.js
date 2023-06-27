@@ -6,11 +6,6 @@ Scenario('Agendar una cita para una asistencia', function () {
     When('el usuario seleccione a un profesor, rellene el nombre, seleccione el horario y hace clic en "Registrar cita".', function () { });
     Then('el sistema valida que haya rellenado los campos correctamente y se le verifica vía correo electrónico que su cita ha sido registrada.', function () { });
 });
-Escenario: Agendar una cita para una asistencia
-Dado un usuario desea tener una cita con un profesor virtual para mejorar su rendimiento.
-Y el usuario selecciona el apartado de "Agendar cita".
-Cuando el usuario seleccione a un [profesor], rellene el [nombre], seleccione el [horario] y hace clic en ["Registrar cita"].
-Entonces el sistema valida que haya rellenado los campos correctamente y se le [verifica] vía correo electrónico que su cita ha sido registrada.
 
 /*
 Input:

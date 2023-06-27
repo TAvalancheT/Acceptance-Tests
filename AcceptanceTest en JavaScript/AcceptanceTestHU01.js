@@ -1,7 +1,10 @@
-Escenario: Ingresar a la app
-    Dado un usuario quiera loguearse en el sistema y no perder su progreso en la app
-    Cuando el usuario ingrese su [usuario] y [contraseña] correctamente
-    Entonces el sistema le permitira [ingresar] a la app
+const { Given, And, When, Then } = require('cucumber');
+
+Scenario('Ingresar a la app', function () {
+    Given('un usuario quiera loguearse en el sistema y no perder su progreso en la app', function () {});
+    When('el usuario ingrese su usuario y constraseña correctamente', function () {});
+    Then('el sistema le permitira ingresar a la app', function () {});
+});
 
 /*
 Input:
